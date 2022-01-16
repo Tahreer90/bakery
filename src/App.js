@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Tahreer's Bakery</h1>
+      <p>
+        {
+          "Tahreer's home bakery delivers for you the finest freshaly baked breads and pastries."
+        }
+      </p>
+
+      <img
+        alt="Tahreer's Bakery"
+        src="https://i.pinimg.com/474x/fc/fc/76/fcfc761036e229134a5cca6c28fa9b1f.jpg"
+      />
     </div>
   );
 }
