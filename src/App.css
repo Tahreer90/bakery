@@ -13,6 +13,12 @@
   }
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +28,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.product {
+  margin: 20px;
+  height: 80px;
+  width: 80px;
+}
+
+.img {
+  height: 250px;
+  width: 200px;
+  text-align: center;
 }
 
 .App-link {
